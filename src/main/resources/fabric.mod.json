@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "buildcraft",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "BuildCraft",
+  "description": "Adds BuildCraft to StationAPI",
   "authors": [
-    "Me!"
+    "SpaceToad"
   ],
   "contact": {
     "homepage": "https://glass-launcher.net/",
@@ -14,12 +14,12 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/examplemod/icon.png",
+  "icon": "assets/buildcraft/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.glasslauncher.example.ExampleMod"
+      "com.matthewperiut.buildcraft.BuildCraft"
     ],
     "stationapi:event_bus": [
     ],
@@ -29,7 +29,7 @@
     ]
   },
   "mixins": [
-    "examplemod.mixins.json"
+    "buildcraft.mixins.json"
   ],
 
   "depends": {
